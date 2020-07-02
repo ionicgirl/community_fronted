@@ -1,0 +1,46 @@
+<ion-header class="head">
+  <ion-toolbar class="head_color">
+    <ion-title>selection-page</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content class="back_color">
+  <div class="ion-padding">
+
+    <form [formGroup]="selectForm">
+      <ion-grid>
+        <ion-row color="primary" class="justify-content-center">
+          <ion-col class="ion-align-self-center" size-md="6" size-lg="5" size-xs="12">
+           
+            <div class="ion-padding">
+                                   
+              <br class="br_line">
+    
+              <div>
+                <ion-button  color="success" size="medium" class="send_center" (click)="communitySide()"  Responsive>Community</ion-button>
+              </div>
+              <div>
+                <ion-button  color="success" size="medium" class="send_center"  (click)="userSide()" Responsive>User</ion-button>
+              </div>
+              <div>
+                <ion-button  color="success" size="medium" class="send_center"  (click)="adminSide()" Responsive>Admin</ion-button>
+
+              </div>
+
+              
+            </div>
+
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </form>
+  </div>
+
+
+</ion-content>
+
+
+
+
